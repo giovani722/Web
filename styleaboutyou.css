@@ -1,0 +1,93 @@
+*,
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body { 
+   background-color: white;
+}
+
+.navbar {
+    background-color: black;
+    height: 8vh;
+}
+
+.container-nav {
+    padding-top: 2vh;
+    padding-left: 2vh;
+    
+}
+
+.li-nav {
+    display: inline;
+    list-style-type: none;
+}
+
+.a-nav {
+    font-family: system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    font-size: 2vh;
+    color: white;
+    padding: 5px;
+}
+
+.a-nav:hover {
+    color: white;
+    text-decoration: underline;
+    transition: 4s ease-in-out;
+    animation-delay: .3s;
+}
+
+.container-con1 {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 20vh;
+    padding: 5vh;
+}
+
+.a-con1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 5vh;
+    text-decoration: none;
+    color: white;
+    animation-duration: 3s;
+    animation-name: leZoomIn;
+}
+
+@keyframes leZoomIn {
+    from {
+        transform: scale(10);
+        opacity: 0;
+    }
+}
+
+.container-con2 {
+    background-color: black;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.p-con2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    animation: lightning  infinite 5s ease-in-out;
+}
+
+@keyframes lightning {
+    from, 50%, to { opacity: 1 }
+    25%, 75% { opacity: 0 }
+}
+
+.img-con3 {
+    width: 100%;
+    border-radius: 10px;
+}

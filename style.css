@@ -1,0 +1,156 @@
+*,
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body { 
+    background-color: black;
+}
+
+.navbar {
+    background-color: black;
+    height: 8vh;
+}
+
+.container-nav {
+    padding-top: 2vh;
+    padding-left: 2vh;
+    
+}
+
+.li-nav {
+    display: inline;
+    list-style-type: none;
+}
+
+.a-nav {
+    font-family: system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    font-size: 2vh;
+    color: white;
+    padding: 5px;
+}
+
+.a-nav:hover {
+    color: white;
+    text-decoration: underline;
+    transition: 4s ease-in-out;
+    animation-delay: .3s;
+}
+
+.container-con1 {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 20vh;
+    padding: 5vh;
+}
+
+.a-con1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 5vh;
+    text-decoration: none;
+    color: white;
+    animation-duration: 3s;
+    animation-name: leZoomIn;
+}
+
+@keyframes leZoomIn {
+    from {
+        transform: scale(10);
+        opacity: 0;
+    }
+}
+
+.container-con2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.ul-con2 {
+    display: flex;
+    padding: 10px;
+    column-gap: 50px;
+}
+
+.li-con2 {
+    display: grid;
+    justify-content: center;
+    align-items: top;
+    list-style-type: none;
+    padding-top: 5px;
+}
+
+.a-con2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    height: 20vh;
+    width: auto;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.img-con2 {
+    height: 70px;
+}
+
+.container-con3 {
+    background-color: black;
+}
+
+.h1-con3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation-duration: 6s;
+    animation-name: fadeIn;
+}
+
+.p-con3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-top: 3px;
+    color: white;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 10px;
+    animation-duration: 6s;
+    animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0 }
+    to { opacity: 1 }
+}
+
+.container-con4 {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: .5px;
+}
+
+.img-con4 {
+    width: 15vh;
+    border-radius: 5px;
+}
